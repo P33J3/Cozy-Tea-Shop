@@ -1,0 +1,118 @@
+html {
+   
+    margin-top: 0;
+    padding-top: 0;
+    
+}
+
+#whole {
+    background-color: black;
+    
+}
+
+body {
+    
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+     text-align: center; 
+     margin-top: 0;
+     padding-top: 0;
+     
+}
+
+.header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width:100%;
+    z-index: 10;
+    background-color: black;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    align-items: center; 
+    margin-left: 10px;  
+}
+
+.header ul {
+    float:right;
+    text-align: right;
+    
+}
+
+.header li {
+    display: inline;
+    text-decoration: underline;
+
+}
+
+#pic {
+    float:left;
+    max-width: 100%;
+    height: 50px;
+   
+ 
+}
+
+.main {
+    position: relative;
+    top: 100px;
+}
+
+.intro {
+    
+    height: 700px;
+    background-image: url("./Images/img-mission-background.jpg");
+    background-size: cover;
+    display: flex;
+}
+
+.banner  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.banner-text {
+    background-color: black;   
+   
+}
+
+.teas {
+   
+    height: 1000px;
+    background-color: black;
+ 
+   
+}
+
+.tea-text {
+
+
+}
+
+.boxes{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tea-boxes {
+    height: 200px;
+    width: 300px;
+}
+
+.container {
+    width: 1200px;
+}
+.locations {
+   height: 500px;
+   display: flex;
+}
+.gps-boxes {
+    width: 300px;
+    height: auto;
+ 
+
+}
