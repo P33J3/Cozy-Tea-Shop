@@ -6,12 +6,9 @@ html {
 }
 
 #whole {
+    
+    width: auto;
     background-color: black;
-    
-}
-
-body {
-    
     font-family: Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
@@ -19,6 +16,15 @@ body {
      text-align: center; 
      margin-top: 0;
      padding-top: 0;
+     
+}
+
+body {
+    
+    
+     margin-top: 0;
+     padding-top: 0;
+    
      
 }
 
@@ -32,17 +38,17 @@ body {
     padding-top: 9px;
     padding-bottom: 10px;
     align-items: center; 
-    margin-left: 10px;  
+     
 }
 
 .header ul {
     float:right;
-    text-align: right;
+   padding-right: 10px;
     
 }
 
 .header li {
-    display: inline;
+    display: inline-block;
     text-decoration: underline;
 
 }
@@ -57,62 +63,150 @@ body {
 
 .main {
     position: relative;
-    top: 100px;
+    padding-top: 100px;
+    
+    
 }
 
 .intro {
     
     height: 700px;
-    background-image: url("./Images/img-mission-background.jpg");
-    background-size: cover;
+    
     display: flex;
+    justify-content: center;
+   
 }
 
 .banner  {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    margin: 0 auto;
+    background-image: url("./Images/img-mission-background.jpg");
+    background-size: cover;
 }
 
 .banner-text {
-    background-color: black;   
+    background-color: black;
+    width: 1200px;   
    
+   
+}
+
+.tea-section {
+    display: flex;
+    justify-content: center;
+
 }
 
 .teas {
    
-    height: 1000px;
-    background-color: black;
- 
+    height: auto;
+    width: 1000px;
+   
+
    
 }
 
 .tea-text {
-
-
+    display: block;
+    
 }
 
-.boxes{
-    width: 1000px;
-    display: flex;
-    flex-wrap: wrap;
-}
+    
+.boxes {
+    width: 100%;
+    height: auto;
+    
+   
+ }
+
+
+
 .tea-boxes {
-    height: 200px;
-    width: 300px;
+   display: inline-flex;   
+   flex-wrap: wrap;
+   justify-content: center;
+   
 }
+
+
+.tea-boxes img {
+    height: 200px;
+     width: 300px;
+    margin: 0 -30px;
+   
+}
+   
 
 .container {
-    width: 1200px;
+    
+    margin: 0 30px;
+    
 }
+
 .locations {
-   height: 500px;
-   display: flex;
+    
+    height: 500px;
+    
+    padding-top: 50px;
+    
+    display: flex;
+    justify-content: center;
+    
+    
 }
+
+.mug {
+    display: inline-block;
+    background-image: url("Images/img-locations-background.jpg");
+    background-size: cover;
+    width: 1200px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.mug2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.locations h2 {
+    margin-top: 30px;
+    display: block;
+    
+}
+
 .gps-boxes {
+    
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+.locbox {
+   
     width: 300px;
-    height: auto;
- 
+    background-color: black;
+    
+    margin: 15px 20px;
+}
+
+.info {
+    height: 200px;
 
 }
+
+footer {
+    height:150px;
+    text-align: left;
+    margin-left: 20px;
+     margin-bottom: 0;
+   
+}
+
